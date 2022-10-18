@@ -1,7 +1,11 @@
+import { Dialog } from "@headlessui/react";
 import type { NextPage } from "next";
 import Link from "next/link";
+import { useState } from "react";
+import Imc from "../components/Imc";
 
 const Home: NextPage = () => {
+  let [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <>
       {/* Inicio da Tela Inicial  */}
@@ -24,9 +28,36 @@ const Home: NextPage = () => {
               <button className="flex items-center justify-center gap-4 w-full py-5 px-8 text-xl text-white bg-blue rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
                 Contato
               </button>
-              <button className="flex items-center justify-center gap-4 py-5 px-8 text-xl bg-yellow rounded-xl shadow hover:shadow-xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
+              <button
+                onClick={() => setIsOpen(true)}
+                className="flex items-center justify-center gap-4 py-5 px-8 text-xl bg-yellow rounded-xl shadow hover:shadow-xl hover:scale-105 transition-all focus:scale-105 focus:underline "
+              >
                 Calcule seu IMC
               </button>
+
+              <Dialog
+                open={isOpen}
+                onClose={() => setIsOpen(false)}
+                className="relative z-10"
+              >
+                <div
+                  className="fixed inset-0 bg-black/60 backdrop-blur"
+                  aria-hidden="true"
+                />
+
+                <div className="fixed inset-0 flex items-center justify-center">
+                  <Dialog.Panel className="p-3 bg-blue-light rounded-2xl ">
+                    <div className=" flex items-center justify-end">
+                      <button
+                        onClick={() => setIsOpen(true)}
+                        className="hover:scale-105 transition-all"
+                      >
+                        <Imc></Imc>
+                      </button>
+                    </div>
+                  </Dialog.Panel>
+                </div>
+              </Dialog>
             </div>
           </div>
           <div className=" flex items-center justify-center w-full ">
@@ -72,7 +103,6 @@ const Home: NextPage = () => {
           </div>
         </div>
       </section>
-
       {/* Fim exercite-se em casa */}
     </>
   );

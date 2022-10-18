@@ -1,5 +1,5 @@
 import React from "react";
-import { Tab } from "@headlessui/react";
+
 import TreinosButton from "../components/TreinosButton";
 
 const treinos = () => {
