@@ -18,7 +18,7 @@ const TreinosButton = ({ data }: IProps) => {
   return (
     <>
       <div className="rounded-2xl shadow hover:scale-[1.01] transition-all bg-white hover:shadow-md hover:shadow-yellow ">
-        <div className="flex items-center justify-between p-4 bg-white rounded-2xl">
+        <div className="flex items-center justify-center gap-6 p-4 bg-white rounded-2xl">
           <picture>
             <button onClick={() => setIsOpen(true)}>
               <img
