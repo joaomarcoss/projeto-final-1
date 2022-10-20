@@ -180,7 +180,7 @@ const Home: NextPage = () => {
                   natura e que possuam alto valor nutritivo.
                 </p>
                 <div className="flex items-center">
-                  <Link href="/treinos">
+                  <Link href="/dicas">
                     <button className="flex items-center justify-center gap-4 py-5 px-12 text-xl text-white bg-blue rounded-xl shadow hover:shadow-xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
                       Dicas
                     </button>

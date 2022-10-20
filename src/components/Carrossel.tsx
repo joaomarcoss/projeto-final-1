@@ -42,6 +42,7 @@ export default function App() {
             </div>
             <button className="flex items-center justify-center gap-4 w-full py-5 px-8 text-xl text-blue bg-yellow rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
               <a
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/renato_cariani/"
                 target={"_blank"}
               >
@@ -64,6 +65,7 @@ export default function App() {
             </div>
             <button className="flex items-center justify-center gap-4 w-full py-5 px-8 text-xl text-blue bg-yellow rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
               <a
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/juliobalestrinoficial/"
                 target={"_blank"}
               >
@@ -85,7 +87,11 @@ export default function App() {
               </span>
             </div>
             <button className="flex items-center justify-center gap-4 w-full py-5 px-8 text-xl text-blue bg-yellow rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
-              <a href="https://www.instagram.com/paulomuzy/" target={"_blank"}>
+              <a
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/paulomuzy/"
+                target={"_blank"}
+              >
                 @Paulo Muzy
               </a>
             </button>
@@ -105,6 +111,7 @@ export default function App() {
             </div>
             <button className="flex items-center justify-center gap-4 w-full py-5 px-8 text-xl text-blue bg-yellow rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
               <a
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/viviwinkler/"
                 target={"_blank"}
               >
@@ -127,6 +134,7 @@ export default function App() {
             </div>
             <button className="flex items-center justify-center gap-4 w-full py-5 px-8 text-xl text-blue bg-yellow rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
               <a
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/ramondinopro/"
                 target={"_blank"}
               >
@@ -149,7 +157,8 @@ export default function App() {
             </div>
             <button className="flex items-center justify-center gap-4 w-full py-5 px-8 text-xl text-blue bg-yellow rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
               <a
-                href="Atleta, Bodybuilder e Personal Trainer"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/leostronda/"
                 target={"_blank"}
               >
                 @Leo Stronda
@@ -171,6 +180,7 @@ export default function App() {
             </div>
             <button className="flex items-center justify-center gap-4 w-full py-5 px-8 text-xl text-blue bg-yellow rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
               <a
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/fabiogigapro/"
                 target={"_blank"}
               >
@@ -193,6 +203,7 @@ export default function App() {
             </div>
             <button className="flex items-center justify-center gap-4 w-full py-5 px-8 text-xl text-blue bg-yellow rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
               <a
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/angelaborgeswellness/"
                 target={"_blank"}
               >
@@ -215,6 +226,7 @@ export default function App() {
             </div>
             <button className="flex items-center justify-center gap-4 w-full py-5 px-8 text-xl text-blue bg-yellow rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all focus:scale-105 focus:underline ">
               <a
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/carolsaraivafitness/"
                 target={"_blank"}
               >
