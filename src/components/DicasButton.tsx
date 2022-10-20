@@ -18,7 +18,7 @@ const TreinosButton = ({ data }: IProps) => {
   return (
     <>
       <div className="rounded-2xl shadow hover:scale-[1.01] transition-all bg-white hover:shadow-md hover:shadow-yellow ">
-        <div className="grid tablet:grid-cols-3 gap-6 p-4 bg-white rounded-2xl">
+        <div className="grid items-center justify-center tablet:grid-cols-4 gap-6 p-4 bg-white rounded-2xl">
           <picture className="flex justify-start">
             <button onClick={() => setIsOpen(true)}>
               <img
@@ -28,9 +28,8 @@ const TreinosButton = ({ data }: IProps) => {
               />
             </button>
           </picture>
-          <div className="flex flex-col items-star justify-center text-blue ">
+          <div className="tablet:col-span-2 items-star justify-center text-blue ">
             <span className="font-bold text-2xl">{data.name}</span>
-            <span>{data.content}</span>
           </div>
           <button
             onClick={() => setIsOpen(true)}
@@ -55,15 +54,15 @@ const TreinosButton = ({ data }: IProps) => {
 
         <div className="fixed inset-0 flex items-center justify-center">
           <Dialog.Panel className="p-3 bg-blue-light rounded-2xl ">
-            <div className="grid justify-center items-center laptop:grid-cols-6 bg-yellow text-blue rounded-2xl p-8 gap-2 ">
+            <div className="grid justify-center items-center desktop:grid-cols-6 bg-yellow text-blue rounded-2xl p-8 gap-2 ">
               <picture className=" tablet:col-span-2">
                 <img
-                  className="hidden laptop:flex rounded-xl border-2 border-blue-light  "
+                  className="hidden desktop:flex rounded-xl border-2 border-blue-light  "
                   src={data.img.src}
                   alt={data.img.alt}
                 />
               </picture>
-              <div className="col-span-4">
+              <div className="col-span-4 items-start h-full">
                 <div className="hidden laptop:flex items-center justify-end">
                   <button
                     onClick={() => setIsOpen(false)}
@@ -71,7 +70,7 @@ const TreinosButton = ({ data }: IProps) => {
                   >
                     <picture>
                       <img
-                        className="laptop:hidden w-20 "
+                        className="hidden desktop:flex w-20 "
                         src="/img/icon_component/icone-x.fw.png"
                         alt="Botão x com pesos de academia"
                       />
@@ -83,7 +82,7 @@ const TreinosButton = ({ data }: IProps) => {
                   <p className=" flex items-center justify-center font-bold text-center text-2xl laptop:text-4xl 4k:text-7xl">
                     {data.content}
                   </p>
-                  <p className=" text-justify p-2 font-light laptop:text-4xl">
+                  <p className=" text-justify p-2 font-medium desktop:text-3xl">
                     {data.contentLong}
                   </p>
                 </div>
@@ -95,7 +94,7 @@ const TreinosButton = ({ data }: IProps) => {
                   >
                     <picture>
                       <img
-                        className="w-16 laptop:hidden"
+                        className="w-16 desktop:hidden"
                         src="/img/icon_component/icone-x.fw.png"
                         alt="Botão x com pesos de academia"
                       />

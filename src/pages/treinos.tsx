@@ -9,7 +9,7 @@ const treinos = () => {
       name: "Prancha Frontal",
       content: "Prancha com elevação de perna",
       contentLong:
-        "Prancha é o exercício ideal para trabalhar a musculatura abdominal, pois a atividade envolve todos os principais grupos musculares, incluindo o transverso abdominal, o reto abdominal, músculo oblíquo externo e os glúteos",
+        "Deitada de bruços, apoie os pés e as mãos no solo, afastadas na linha dos ombros, e estenda os braços, erguendo o corpo. Contraia o abdômen e eleve uma das pernas, mantendo a posição pelo tempo determinado. Repita com a outra perna de forma alternada",
     },
     {
       img: { src: "./img/gifs/treino-2.gif", alt: "gif do treino" },
