@@ -50,10 +50,10 @@ const Imc = () => {
   }, [peso, altura]);
   return (
     <>
-      <div className="flex flex-col justify-center items-center bg-blue p-20 gap-3 rounded-tl-3xl rounded-br-3xl">
+      <div className="flex flex-col justify-center items-center bg-blue gap-3 rounded-tl-3xl rounded-br-3xl  mobile:p-2 tablet:p-4 laptop-p10 desktop:p-20 ">
         <h1 className="text-white font-bold text-3xl">Calculadora de IMC</h1>
         <div className="flex flex-col gap-3 justify-between">
-          <div className="flex justify-between items-center gap-3">
+          <div className="tablet:flex justify-between items-center gap-3">
             <label className="text-white font-bold">PESO:</label>
             <input
               className="flex items-center justify-center gap-4 py-2 px-6 text-xl rounded-xl"
@@ -62,7 +62,7 @@ const Imc = () => {
               onChange={(e) => setPeso(e.target.valueAsNumber)}
             />
           </div>
-          <div className="flex justify-between gap-3 items-center">
+          <div className="tablet:flex justify-between items-center gap-3">
             <label className="text-white font-bold">ALTURA: </label>
             <input
               className="flex items-center justify-center gap-4 py-2 px-6 text-xl rounded-xl"
@@ -72,7 +72,7 @@ const Imc = () => {
             />
           </div>
         </div>
-        <div className="flex items-center justify-center w-full">
+        <div className="flex items-center justify-center w-full ">
           <button
             disabled={isDisable}
             className="flex items-center justify-center gap-4 py-4 px-8 w-full text-xl text-blue bg-yellow rounded-xl shadow hover:shadow-xl hover:scale-105 transition-all focus:scale-105 focus:underline disabled:bg-gray-light disabled:hover:scale-100"
