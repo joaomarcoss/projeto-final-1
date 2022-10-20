@@ -19,7 +19,7 @@ const dicas = () => {
       name: "Frutas e Hortaliças",
       content: "Importância das Frutas e Hortaliças",
       contentLong:
-        "Os benefícios do consumo de frutas e hortaliças para nossa saúde não é novidade. Pode ser até repetitivo, mas a verdade é que comer frutas, legumes e verduras todos os dias é fundamental para quem busca uma estilo de vida mais saudável. As frutas e as hortaliças são alimentos com um perfil nutricional muito interessante. Isso porque, possuem poucas calorias e bom aporte de vitaminas e minerais – nutrientes fundamentais para o bom funcionamento do corpo. Quem consome frutas e hortaliças com regularidade apresenta aumento da disposição e a diminuição de riscos de doenças como a hipertensão e a diabetes. Além disso, esses alimentos são muito versáteis e podem ser consumidos crus, cozidos, em forma de sucos, preparos salgados e doces.",
+        "Os benefícios pode ser até repetitivo, mas a verdade é que comer frutas, legumes e verduras todos os dias é fundamental para quem busca uma estilo de vida mais saudável. As frutas e as hortaliças são alimentos com um perfil nutricional muito interessante. Isso porque, possuem poucas calorias e bom aporte de vitaminas e minerais – nutrientes fundamentais para o bom funcionamento do corpo. Além disso, esses alimentos são muito versáteis e podem ser consumidos crus, cozidos, em forma de sucos, preparos salgados e doces.",
     },
     {
       img: { src: "./img/comidas/leite.fw.png", alt: "Derivados de Leite" },
